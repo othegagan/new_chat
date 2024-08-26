@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "esModuleInterop": true,
+        "strict": false,
+        "moduleResolution": "node",
+        "noEmit": true,
+
+        "outDir": "dist",
+
+        "forceConsistentCasingInFileNames": false,
+        "skipLibCheck": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitAny": false,
+
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"]
+        }
+    },
+    "tsc-alias": {
+        "resolveFullPaths": true,
+        "verbose": false
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}
